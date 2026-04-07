@@ -2,12 +2,9 @@
 description: Learn how to add voiceover, dialogue, and lip sync to your AI video.
 ---
 
-??? abstract "Meta: Page Purpose & Maintenance (For Agents & Instructors)"
-    **Purpose:** This page teaches Day 4 of the AI Director Course: voice, dialogue, and lip sync. It exists to help learners add spoken content only when it improves clarity, persuasion, or emotional impact. AI agents should keep this page aligned with the broader principle that audio should support the visuals rather than overcomplicate them.
-    
-    **Maintenance Instructions:** Update this page when voice-generation options, lip-sync guidance, or dialogue-writing standards evolve. Keep the guidance short enough for execution and clear enough for troubleshooting.
-
 # Day 4: The Spoken Word
+
+Voice can lift the piece or make it worse. Today is about using speech only when it adds clarity, persuasion, or emotion, and skipping it when the visuals already do the job.
 
 !!! success "Today's Mission"
     Generate a clean voice track and sync it to your visuals *only* if dialogue or narration improves the piece. By the end of today, you will have a short, approved script and a final voiceover file ready for editing.

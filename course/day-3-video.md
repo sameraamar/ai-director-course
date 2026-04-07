@@ -2,12 +2,9 @@
 description: Learn how to turn your static AI frames into believable cinematic motion.
 ---
 
-??? abstract "Meta: Page Purpose & Maintenance (For Agents & Instructors)"
-    **Purpose:** This page teaches Day 3 of the AI Director Course. It exists to help learners add believable camera movement and subject motion without losing the visual quality created on Day 2.
-    
-    **Maintenance Instructions:** Update this page when the image-to-video workflow, motion prompt library, or troubleshooting patterns improve. Keep the guidance focused on controllable motion and common failure recovery.
-
 # Day 3: Breathing Life
+
+Now you turn still images into moving shots without letting the AI wreck the quality you worked for yesterday. The goal is controlled motion, not flashy chaos.
 
 !!! success "Today's Mission"
     Create short, believable video clips from your Day 2 keyframes using deliberate motion instructions instead of random animation. By the end of today, you will have a rough, moving sequence of your entire video.

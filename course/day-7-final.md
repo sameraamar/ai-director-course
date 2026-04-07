@@ -2,12 +2,9 @@
 description: Learn how to review, upscale, and export your final AI cinematic video.
 ---
 
-??? abstract "Meta: Page Purpose & Maintenance (For Agents & Instructors)"
-    **Purpose:** This page teaches Day 7 of the AI Director Course: final review and polish. It exists to help learners evaluate their work against the original blueprint, improve the final presentation, and export a strong finished piece.
-    
-    **Maintenance Instructions:** Update this page when export guidance, self-critique framework, or finishing workflow changes. Keep the guidance grounded in practical completion and honest review, not endless tweaking.
-
 # Day 7: The Premiere
+
+The final day is about finishing, not endlessly tinkering. You are here to judge the work honestly, make the highest-value fixes, and leave with a version you can actually publish.
 
 !!! success "Today's Mission"
     Export a polished final video and evaluate it against your original Day 1 vision. By the end of today, you will have a finished, shareable cinematic short and a repeatable workflow you can use for your next project.

@@ -1,15 +1,7 @@
-# Purpose
-This page is the public Tool Vault for the AI Director Course.
-It exists to centralize change-prone tool recommendations so the core lessons can remain stable even as the AI tooling landscape evolves.
-AI agents should update this page instead of hard-coding specific vendor recommendations into lesson content whenever possible.
-
-# Maintenance Instructions
-Update this page whenever recommended tools, pricing tiers, categories, or replacement guidance changes.
-Humans and AI agents may both maintain it, but updates should stay grounded in current course needs and remain easy to scan.
-Keep lesson pages focused on workflow concepts and use this page as the canonical tool reference.
-
 # Tool Vault
-Use this page as the canonical source for current recommended tools.
+Use this page when you want a quick answer to a simple question: which kind of tool should I use for this step?
+
+The lessons teach the workflow. This page helps you choose a practical tool for that workflow without rewriting the course every time the market changes.
 
 ## Selection Rules
 - Favor reliable tools with clear free or starter tiers when possible.
@@ -29,60 +21,14 @@ Use this page as the canonical source for current recommended tools.
 | Editing / Finishing | CapCut (Desktop) | Premiere Pro / DaVinci Resolve | CapCut's free desktop version does 99% of what a learner needs (timeline, basic LUTs, audio syncing). |
 | Upscaling | CapCut (Built-in Enhancer) | Topaz Video AI | Prioritize upscaling only on Day 7 to push the final 720p/1080p clips to crisp 4K. |
 
-## Update Checklist
-When changing this page:
-1. Verify the workflow category still matches current curriculum needs.
-2. Note whether the tool is best for free exploration or paid production work.
-3. Avoid making the lessons depend on a single vendor if the concept can stay tool-agnostic.
-4. Record major changes in internal planning docs when the update affects course flow.
+## How to Use This Page
+1. Find the stage you are working on.
+2. Start with the free or starter-friendly option if you are still learning.
+3. Move to the paid option only when you need better control, higher quality, or faster turnaround.
+4. Return to the lesson page for the actual workflow guidance.
 
-## Maintenance Workflow
-### Ownership
-- Humans or AI agents may update this page.
-- The updater is responsible for keeping categories, labels, and notes consistent with the curriculum.
-- When a tool change would alter how a lesson is taught, update the relevant internal docs in `/docs` as well.
-
-### Update Cadence
-Review this page:
-- before major curriculum refreshes
-- when a recommended tool becomes unavailable or unreliable
-- when pricing or access changes materially affect learners
-- when a new category becomes necessary for the sprint
-
-### Evaluation Criteria
-When considering a tool, assess:
-- accessibility for beginners
-- output quality
-- consistency controls
-- export flexibility
-- reliability and ease of iteration
-- fit for the specific workflow stage
-
-### Change Rules
-- Prefer replacing entries in this page instead of rewriting lesson pages.
-- Keep lesson language workflow-focused and tool-agnostic where possible.
-- If no current recommendation is ready, keep `To Be Discovered` rather than guessing.
-
-### Suggested Change Process
-1. Confirm the workflow category.
-2. Check whether the tool is best labeled free/starter-friendly or paid/pro-oriented.
-3. Write or revise the note so it explains *why* the tool fits.
-4. Review lesson pages only if the workflow itself has changed.
-5. Record any meaningful curriculum impact in internal planning docs.
-
-## Content Ownership Notes
-- Category structure is the canonical public abstraction layer.
-- Specific vendors are optional and should be added only when the recommendation is stable enough to help learners.
-- Lesson pages should reference categories or capabilities more often than brand names.
-
-## Change Log Template
-Use this note format internally when a major Tool Vault update affects the course:
-
-```text
-Date:
-Category updated:
-What changed:
-Why it changed:
-Lesson impact:
-Follow-up docs updated:
-```
+## Quick Advice
+- Do not switch tools every 15 minutes. Pick one option for the current day and finish the exercise.
+- Free tools are usually enough for learning the workflow.
+- Paid tools make more sense once you already know what result you are chasing.
+- If a tool disappears or changes pricing, keep the workflow and swap the vendor.

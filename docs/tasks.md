@@ -196,6 +196,22 @@ Keep it aligned with [docs/design/design.md](design/design.md) and [docs/START_H
     - A first pass of mock screenshots is now embedded across Day 1 through Day 7 with alt text and captions, using generated assets under `/course/assets/images`.
 - Dependencies: 3.4
 
+### D.10 Remove internal boilerplate from public course pages
+- Status: [x]
+- Started:
+- Completed:
+- Included in version:
+- Acceptance criteria:
+    - Public course pages read as learner-facing curriculum, not internal maintainer or agent instructions.
+    - The welcome page reflects the actual AI Director Course experience and tone.
+    - The Tool Vault remains useful without exposing internal maintenance workflow text to learners.
+- Validation:
+    - Rewrote `course/index.md`, `course/tool-vault.md`, and Day 1 through Day 7 intros to remove internal purpose and maintenance boilerplate.
+    - Re-ran ingestion after the content refresh so retrieval uses the learner-facing copy.
+- Notes:
+    - Internal maintenance and agent instructions remain under `/docs` and `/.github`, not in the public course pages.
+- Dependencies: 3.4
+
 ## Phase 4 — Backend assistant design and implementation
 
 ### 4.1 Design ingestion and retrieval architecture

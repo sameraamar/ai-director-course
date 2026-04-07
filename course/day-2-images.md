@@ -2,12 +2,9 @@
 description: Learn how to convert your storyboard shots into strong, consistent static frames.
 ---
 
-??? abstract "Meta: Page Purpose & Maintenance (For Agents & Instructors)"
-    **Purpose:** This page teaches Day 2 of the AI Director Course. It exists to help learners establish visual quality and consistency before adding motion. AI agents should keep this page consistent with Day 1 storyboard structure and Day 3 motion needs.
-    
-    **Maintenance Instructions:** Update this page when the image-generation workflow, prompt formula, or consistency techniques change. Keep the guidance grounded in repeatable prompt construction and consistency discipline, remaining tool-agnostic where possible.
-
 # Day 2: Mastering the Frame
+
+Today is about consistency. You are not chasing random pretty images. You are building five frames that look like they belong to the same film, the same world, and the same idea.
 
 !!! success "Today's Mission"
     Generate one strong, visually perfect keyframe for each of your 5 planned shots. By the end of today, you will have a complete "animatic" (a static storyboard) that looks like a high-end film, ready to be handed off to the motion engines tomorrow.

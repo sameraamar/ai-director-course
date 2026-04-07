@@ -108,6 +108,7 @@ The product combines public curriculum content, a maintainable catalog of curren
 - Days 4 through 7 establish that optional voice, selective sound design, disciplined editing, and honest final review are part of the course's default production workflow.
 - A lightweight placeholder-audit test can be used to track unresolved screenshot or asset markers across `/course` before public launch.
 - The current course pages now include a first pass of embedded mock screenshots with alt text and captions, giving the lessons usable staging visuals before real product captures are collected.
+- Public course pages should read as learner-facing curriculum only; internal maintenance notes and agent instructions belong in `/docs` and repository instruction files, not the MkDocs pages.
 
 # Tool Vault Governance
 - The Tool Vault is the public abstraction layer for fast-changing vendor recommendations.

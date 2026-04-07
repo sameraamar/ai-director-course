@@ -2,12 +2,9 @@
 description: Learn how to convert a vague idea into a concrete 5-shot sequence.
 ---
 
-??? abstract "Meta: Page Purpose & Maintenance (For Agents & Instructors)"
-    **Purpose:** This page teaches Day 1 of the AI Director Course. It exists to help learners convert a vague idea into a concrete sequence of shots that later AI tools can execute consistently. AI agents should keep this page aligned with the sprint promise and use it as the foundation for downstream lesson pages.
-    
-    **Maintenance Instructions:** Update this page when the Day 1 framework, storyboard prompt patterns, or troubleshooting guidance changes. Keep examples short, practical, and focused on output quality.
-
 # Day 1: The Director's Blueprint
+
+This is the day you stop thinking in vague ideas and start thinking like a director. Your goal is to leave with a 5-shot plan strong enough that every tool you use later has clear instructions to follow.
 
 !!! success "Today's Mission"
     Create a precise 5-shot storyboard that defines your subject, action, camera language, and lighting intent. By the end of today, you will have a rock-solid blueprint so your AI tools have strict rules to follow tomorrow.

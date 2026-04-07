@@ -2,12 +2,9 @@
 description: Learn how to use music, ambience, and sound effects to make your AI video feel grounded and cinematic.
 ---
 
-??? abstract "Meta: Page Purpose & Maintenance (For Agents & Instructors)"
-    **Purpose:** This page teaches Day 5 of the AI Director Course: music, ambience, and sound effects. It exists to help learners build the emotional layer that makes AI-generated visuals feel more cinematic and believable. AI agents should treat this page as a craft-focused lesson centered on pacing, mood, and realism.
-    
-    **Maintenance Instructions:** Update this page when music-generation workflows, Foley recommendations, or sound-design checklists improve. Keep the advice connected to the edit structure learners will use on Day 6.
-
 # Day 5: The Atmosphere
+
+This is where the video starts to feel real. Good audio gives weight, mood, rhythm, and scale to visuals that would otherwise feel flat or obviously synthetic.
 
 !!! success "Today's Mission"
     Choose (or generate) a music track and gather enough sound effects to make your sequence feel grounded in reality. By the end of today, you will have a cleanly organized audio folder ready to be dropped into your editing timeline tomorrow.

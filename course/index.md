@@ -1,15 +1,9 @@
-# Purpose
-This page is the public welcome page for the AI Director Course site.
-It exists to orient learners to the 7-day sprint, expected outcomes, and how to use the curriculum.
-AI agents should keep this page aligned with the actual course structure and learner promise.
-
-# Maintenance Instructions
-Update this page when the course positioning, learner outcome, pacing model, or site navigation changes.
-Humans and AI agents may both update it, but changes should remain consistent with the internal design docs and the individual day pages.
-Keep this page concise, motivating, and easy for first-time learners to scan.
-
 # Welcome to AI Director Course
 Build a polished 30-to-60-second cinematic AI video in seven focused days.
+
+This course is designed for creators who want a practical path from idea to finished video without getting lost in endless tutorials, random tool tests, or overcomplicated film theory.
+
+You will move from concept, to frames, to motion, to audio, to final polish one day at a time.
 
 ## What You Will Make
 By the end of this sprint, you should have:
@@ -45,5 +39,5 @@ Aim for one final video that is:
 - Strong enough to publish
 - Clear enough that someone else understands the story without explanation
 
-!!! note "This site is evolving"
-    The curriculum is being expanded from a working skeleton into a full guided experience. Expect the lesson structure to deepen over time while keeping the same overall sprint arc.
+!!! note "Start simple"
+    Pick one short idea you can actually finish this week. A clear, focused 30-to-60-second piece will teach you more than an over-ambitious concept that never gets completed.

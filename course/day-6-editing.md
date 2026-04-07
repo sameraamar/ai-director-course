@@ -2,12 +2,9 @@
 description: Learn how to assemble your AI video clips, voiceover, and music into a cohesive cinematic edit.
 ---
 
-??? abstract "Meta: Page Purpose & Maintenance (For Agents & Instructors)"
-    **Purpose:** This page teaches Day 6 of the AI Director Course: editing and assembly. It exists to help learners combine generated clips and audio into one coherent, polished short video. AI agents should keep this page tied to practical edit decisions rather than abstract theory alone.
-    
-    **Maintenance Instructions:** Update this page when recommended editing workflow, cut strategy, or finishing standards evolve. Keep the page centered on sequencing, pacing, and polish.
-
 # Day 6: The Assembly Line
+
+Today you stop thinking about separate assets and start thinking about the viewer's experience. The edit is where clips, sound, pacing, and emotion finally become one piece.
 
 !!! success "Today's Mission"
     Assemble your final timeline, tighten the pacing, and apply a cohesive visual look. By the end of today, you will have a complete, near-final rough cut that already feels publishable.
