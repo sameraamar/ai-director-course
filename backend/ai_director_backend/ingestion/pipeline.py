@@ -165,7 +165,7 @@ def build_ingestion_index(repo_root: Path) -> IngestionIndex:
     chunks = [chunk for source in sources for chunk in chunk_source_document(source)]
     term_index = build_term_index(chunks)
     return IngestionIndex(
-        root_path=str(repo_root.resolve()),
+        root_path=repo_root.resolve().name,
         generated_at=datetime.now(UTC).isoformat(),
         chunk_count=len(chunks),
         source_count=len(sources),

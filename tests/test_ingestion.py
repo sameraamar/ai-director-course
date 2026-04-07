@@ -41,6 +41,7 @@ class IngestionPipelineTests(unittest.TestCase):
 
         self.assertGreater(index.source_count, 0)
         self.assertGreater(index.chunk_count, 0)
+        self.assertEqual(repo_root.name, index.root_path)
         self.assertTrue(any(chunk.path == "course/day-1-storyboard.md" for chunk in index.chunks))
         self.assertIn("course", {chunk.source_category for chunk in index.chunks})
         self.assertIn("design", {chunk.source_category for chunk in index.chunks})

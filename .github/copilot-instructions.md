@@ -45,4 +45,4 @@ Keep this file aligned with [docs/START_HERE.md](../docs/START_HERE.md), [docs/t
 - If tests are deferred for a task, document that decision in [docs/tasks.md](../docs/tasks.md) and the relevant design notes.
 - Prefer the smallest useful validation that proves the task works.
 
-<!-- Python environment rule: if Python is needed for this repository, activate and work with `C:\Users\saaamar\source\repos\ai-director-course\.venv\Scripts\python.exe` only. -->
+<!-- Python environment rule: if Python is needed for this repository, activate and work with `.venv\Scripts\python.exe` only. -->

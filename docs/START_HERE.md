@@ -35,6 +35,8 @@ The retrieval index now refreshes automatically when course or docs Markdown fil
 The repository now also contains a first website chat widget design.
 The repository now also contains a first website chat widget integration on the public site.
 The repository now also includes a first GitHub Actions workflow for deploying the MkDocs site to GitHub Pages.
+The public site footer now credits Samer Aamar and links back to the GitHub repository.
+Repository metadata and instructions now avoid workstation-specific absolute paths.
 The active next step is to improve retrieval quality and then extend support into Discord and deployment workflows.
 
 # Files That Define Truth

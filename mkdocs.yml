@@ -1,6 +1,7 @@
 site_name: AI Director Course
 site_description: A 7-day cinematic AI sprint for creators, marketers, and founders.
-site_author: Course Director
+site_author: Samer Aamar
+copyright: Copyright &copy; 2026 Samer Aamar · <a href="https://github.com/sameraamar/ai-director-course" target="_blank" rel="noopener">GitHub</a>
 docs_dir: course
 
 theme:

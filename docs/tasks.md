@@ -328,6 +328,33 @@ Keep it aligned with [docs/design/design.md](design/design.md) and [docs/START_H
     - This deploys only the static site. The FastAPI backend still requires separate hosting and public widget configuration.
 - Dependencies: 2.1, D.3
 
+### D.8 Add site author credit
+- Status: [x]
+- Started:
+- Completed:
+- Included in version:
+- Acceptance criteria:
+    - The public MkDocs site shows author credit and repository attribution site-wide.
+- Validation:
+    - Updated `mkdocs.yml` with `site_author` and footer copyright metadata pointing to the GitHub repository.
+- Notes:
+    - The credit is rendered by the MkDocs theme footer on every page.
+- Dependencies: 2.1
+
+### D.9 Remove local path leakage
+- Status: [x]
+- Started:
+- Completed:
+- Included in version:
+- Acceptance criteria:
+    - Repository docs and generated metadata do not embed workstation-specific absolute paths.
+- Validation:
+    - Updated `/.github/copilot-instructions.md` to reference the virtual environment using a repository-relative path.
+    - Updated ingestion metadata generation so the index stores only the repository name rather than an absolute local filesystem path.
+- Notes:
+    - Regenerate the ingestion index after this change so `backend/.artifacts/ingestion/index.json` reflects the portable metadata format.
+- Dependencies: 4.3
+
 # Discovered Tasks
 
 ### D.1 Decide backend package layout

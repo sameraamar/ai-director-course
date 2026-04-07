@@ -41,6 +41,7 @@ The product combines public curriculum content, a maintainable catalog of curren
 - A local `AI_DIRECTOR_VERBOSE_LOGGING` flag now enables full Gemini prompt and response logging for debugging model behavior.
 - Backend runtime logs are now attached to Uvicorn's error logger and include a startup configuration line for quick local verification.
 - The retrieval layer now treats the local ingestion index as disposable cache and rebuilds it automatically when Markdown source files become newer than the saved index.
+- Generated ingestion metadata is now portable and avoids embedding workstation-specific absolute filesystem paths.
 - A dedicated website chat widget design now defines the planned learner-facing UI and integration path for the public site.
 - The public site now includes a first chat widget integration path through MkDocs assets, theme override configuration, and backend CORS support for local development.
 - Discord integration is still planned but not yet implemented.
@@ -69,6 +70,7 @@ The product combines public curriculum content, a maintainable catalog of curren
 - Navigation defined in [mkdocs.yml](../../mkdocs.yml).
 - Search and theme capabilities handled by the static site generator.
 - The current site integration plan loads a lightweight chat widget through MkDocs theme override configuration and static assets.
+- Site-wide author credit and repository attribution are configured through MkDocs metadata so the footer identifies the course author on every page.
 
 ## 2. Internal project-governance layer
 - Planning, design, research, and task state stored in `/docs`.
