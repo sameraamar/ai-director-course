@@ -9,6 +9,7 @@ class ProjectScaffoldTests(unittest.TestCase):
             "README.md",
             ".env.template",
             ".github/copilot-instructions.md",
+            ".github/workflows/deploy-mkdocs.yml",
             "docs/START_HERE.md",
             "docs/tasks.md",
             "docs/design/design.md",
@@ -54,13 +55,13 @@ class ProjectScaffoldTests(unittest.TestCase):
     def test_course_pages_include_required_sections(self) -> None:
         root = Path(__file__).resolve().parents[1]
         required_by_file = {
-            "course/day-1-storyboard.md": ["## Outcome for Today", "## Fast Track", "## Deep Dive", "## Checkpoint"],
-            "course/day-2-images.md": ["## Outcome for Today", "## Fast Track", "## Deep Dive", "## Checkpoint"],
-            "course/day-3-video.md": ["## Outcome for Today", "## Fast Track", "## Deep Dive", "## Checkpoint"],
-            "course/day-4-audio.md": ["## Outcome for Today", "## Fast Track", "## Deep Dive", "## Checkpoint"],
-            "course/day-5-music.md": ["## Outcome for Today", "## Fast Track", "## Deep Dive", "## Checkpoint"],
-            "course/day-6-editing.md": ["## Outcome for Today", "## Fast Track", "## Deep Dive", "## Checkpoint"],
-            "course/day-7-final.md": ["## Outcome for Today", "## Fast Track", "## Deep Dive", "## Finish Line"],
+            "course/day-1-storyboard.md": ["Today's Mission", "The Fast Track", "The Deep Dive", "Day 1 Checkpoint"],
+            "course/day-2-images.md": ["Today's Mission", "The Fast Track", "The Deep Dive", "Day 2 Checkpoint"],
+            "course/day-3-video.md": ["Today's Mission", "The Fast Track", "The Deep Dive", "Day 3 Checkpoint"],
+            "course/day-4-audio.md": ["Today's Mission", "The Fast Track", "The Deep Dive", "Day 4 Checkpoint"],
+            "course/day-5-music.md": ["Today's Mission", "The Fast Track", "The Deep Dive", "Day 5 Checkpoint"],
+            "course/day-6-editing.md": ["Today's Mission", "The Fast Track", "The Deep Dive", "Day 6 Checkpoint"],
+            "course/day-7-final.md": ["Today's Mission", "The Fast Track", "The Deep Dive", "The Final Checkpoint"],
             "course/tool-vault.md": ["## Tool Categories", "## Update Checklist", "## Maintenance Workflow"],
         }
 

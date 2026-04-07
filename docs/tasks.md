@@ -313,6 +313,21 @@ Keep it aligned with [docs/design/design.md](design/design.md) and [docs/START_H
 - Notes:
 - Dependencies: 5.2, 6.1
 
+### D.7 Add GitHub Pages deployment workflow
+- Status: [x]
+- Started:
+- Completed:
+- Included in version:
+- Acceptance criteria:
+    - A GitHub Actions workflow can build the MkDocs site and deploy it to GitHub Pages from source without committing `/site` to the main branch.
+- Validation:
+    - Added `/.github/workflows/deploy-mkdocs.yml`.
+    - Updated `README.md` with GitHub Pages setup instructions.
+    - Extended scaffold validation to assert the workflow file exists.
+- Notes:
+    - This deploys only the static site. The FastAPI backend still requires separate hosting and public widget configuration.
+- Dependencies: 2.1, D.3
+
 # Discovered Tasks
 
 ### D.1 Decide backend package layout

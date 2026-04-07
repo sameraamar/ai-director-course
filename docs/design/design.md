@@ -146,6 +146,7 @@ The product combines public curriculum content, a maintainable catalog of curren
 # Deployment Direction
 - Planned static hosting: GitHub Pages, Vercel, or similar static host.
 - Planned backend hosting: Render, Railway, or similar Python-friendly platform.
+- A first GitHub Actions workflow now exists for deploying the MkDocs site to GitHub Pages from source.
 - Final deployment decisions are To Be Discovered.
 
 # Future Split Candidates

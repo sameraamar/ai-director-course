@@ -167,6 +167,21 @@ Run:
 
 This checks that the public site, theme overrides, and widget assets build cleanly.
 
+# How to Deploy the MkDocs Site to GitHub Pages
+This repository now includes a GitHub Actions workflow at [.github/workflows/deploy-mkdocs.yml](.github/workflows/deploy-mkdocs.yml).
+
+To use it:
+1. Push the repository to GitHub.
+2. In the GitHub repository settings, enable GitHub Pages and set the source to `GitHub Actions`.
+3. Push to the `main` branch or run the workflow manually from the Actions tab.
+
+The workflow builds the MkDocs site with `mkdocs build --strict` and deploys the generated [site](site) output to GitHub Pages.
+
+Important:
+- You do not need to commit [site](site) to the main branch.
+- GitHub Pages deploys only the static frontend.
+- The chat widget still needs a separately hosted backend API before public chat can work outside localhost.
+
 # How to Regenerate the Ingestion Index
 Run:
 
