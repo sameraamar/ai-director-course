@@ -212,6 +212,23 @@ Keep it aligned with [docs/design/design.md](design/design.md) and [docs/START_H
     - Internal maintenance and agent instructions remain under `/docs` and `/.github`, not in the public course pages.
 - Dependencies: 3.4
 
+### D.11 Add bilingual public course support
+- Status: [x]
+- Started:
+- Completed:
+- Included in version:
+- Acceptance criteria:
+    - Public MkDocs pages support both English and Arabic content.
+    - Arabic content renders with RTL layout.
+    - Tool names and standard product names remain in English where appropriate.
+- Validation:
+    - Added shared bilingual CSS and JavaScript assets for language switching and RTL rendering.
+    - Converted the welcome page, Tool Vault, and Day 1 through Day 7 pages into bilingual English/Arabic content.
+    - Rebuilt MkDocs and refreshed ingestion after the content update.
+- Notes:
+    - Language selection now persists locally in the browser using a small client-side preference.
+- Dependencies: D.10
+
 ## Phase 4 — Backend assistant design and implementation
 
 ### 4.1 Design ingestion and retrieval architecture

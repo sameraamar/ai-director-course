@@ -71,6 +71,7 @@ The product combines public curriculum content, a maintainable catalog of curren
 - Search and theme capabilities handled by the static site generator.
 - The current site integration plan loads a lightweight chat widget through MkDocs theme override configuration and static assets.
 - Site-wide author credit and repository attribution are configured through MkDocs metadata so the footer identifies the course author on every page.
+- The public site now also loads lightweight bilingual assets so learners can switch between English and Arabic without duplicating the MkDocs navigation tree.
 
 ## 2. Internal project-governance layer
 - Planning, design, research, and task state stored in `/docs`.
@@ -109,6 +110,7 @@ The product combines public curriculum content, a maintainable catalog of curren
 - A lightweight placeholder-audit test can be used to track unresolved screenshot or asset markers across `/course` before public launch.
 - The current course pages now include a first pass of embedded mock screenshots with alt text and captions, giving the lessons usable staging visuals before real product captures are collected.
 - Public course pages should read as learner-facing curriculum only; internal maintenance notes and agent instructions belong in `/docs` and repository instruction files, not the MkDocs pages.
+- Public course pages now support bilingual English/Arabic presentation, with Arabic content rendered in RTL while preserving English tool and product names where needed.
 
 # Tool Vault Governance
 - The Tool Vault is the public abstraction layer for fast-changing vendor recommendations.

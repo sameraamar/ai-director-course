@@ -1,0 +1,90 @@
+.language-switcher {
+  display: inline-flex;
+  gap: 0.5rem;
+  margin: 0 0 1.25rem;
+  padding: 0.25rem;
+  border: 1px solid rgba(15, 23, 42, 0.12);
+  border-radius: 999px;
+  background: rgba(248, 250, 252, 0.92);
+}
+
+.language-switcher__button {
+  border: 0;
+  border-radius: 999px;
+  background: transparent;
+  color: inherit;
+  cursor: pointer;
+  font: inherit;
+  font-weight: 600;
+  line-height: 1;
+  padding: 0.65rem 1rem;
+}
+
+.language-switcher__button.is-active {
+  background: #0f172a;
+  color: #fff;
+}
+
+.language-panel[hidden] {
+  display: none !important;
+}
+
+.rtl-content {
+  direction: rtl;
+  text-align: right;
+}
+
+.rtl-content h1,
+.rtl-content h2,
+.rtl-content h3,
+.rtl-content h4,
+.rtl-content h5,
+.rtl-content h6,
+.rtl-content p,
+.rtl-content li,
+.rtl-content blockquote,
+.rtl-content figcaption,
+.rtl-content table,
+.rtl-content th,
+.rtl-content td,
+.rtl-content .admonition,
+.rtl-content .md-typeset__table {
+  text-align: right;
+}
+
+.rtl-content ul,
+.rtl-content ol {
+  padding-right: 1.5rem;
+  padding-left: 0;
+}
+
+.rtl-content blockquote,
+.rtl-content .admonition,
+.rtl-content table {
+  direction: rtl;
+}
+
+.rtl-content code,
+.rtl-content pre,
+.rtl-content .language-preserve-ltr,
+.rtl-content .language-preserve-ltr code,
+.rtl-content .language-preserve-ltr pre {
+  direction: ltr;
+  text-align: left;
+}
+
+.rtl-content img {
+  direction: ltr;
+}
+
+@media (max-width: 600px) {
+  .language-switcher {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .language-switcher__button {
+    flex: 1 1 0;
+    text-align: center;
+  }
+}

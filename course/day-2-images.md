@@ -2,6 +2,13 @@
 description: Learn how to convert your storyboard shots into strong, consistent static frames.
 ---
 
+<div class="language-switcher" role="group" aria-label="Language selector">
+  <button type="button" class="language-switcher__button is-active" data-language-target="en" aria-pressed="true">English</button>
+  <button type="button" class="language-switcher__button" data-language-target="ar" aria-pressed="false">العربية</button>
+</div>
+
+<div class="language-panel" data-language-panel="en" markdown="1">
+
 # Day 2: Mastering the Frame
 
 Today is about consistency. You are not chasing random pretty images. You are building five frames that look like they belong to the same film, the same world, and the same idea.
@@ -25,7 +32,7 @@ If you improvise the prompt from scratch for every shot, the AI starts treating 
 
 Before writing shot-specific prompts, write one reusable block of text that defines your exact subject and style.
 
-* **Example Master Block:** *Premium stainless-steel espresso machine, brushed metal finish, matte black accents, cinematic realism, moody morning light, premium lifestyle aesthetic, polished product photography quality.*
+* **Example Master Block:** *Sea turtle, textured shell, graceful underwater movement, cinematic realism, floating plastic debris, moody blue-green water, environmental documentary style, highly detailed natural light.*
 
 ### Step 2 — The Cinematic Prompt Formula
 To get a cinematic frame, you must build your prompt using this exact structure. Copy this formula and combine it with your Master Block.
@@ -33,14 +40,14 @@ To get a cinematic frame, you must build your prompt using this exact structure.
 !!! tip "The Prompt Formula"
     `[Master Visual Identity Block]`, `[Shot-Specific Action]`, `[Environment Details]`, `[Camera Framing]`, `[Lighting Intent]`.
 
-Let's look at how we take **Shot 1** from yesterday's espresso machine example and plug it into the formula:
+Let's look at how we take **Shot 1** from yesterday's sea turtle example and plug it into the formula:
 
-> **The Final Prompt:** > *Premium stainless-steel espresso machine, brushed metal finish, matte black details, calm luxury aesthetic, cinematic realism, close-up of espresso pouring into a ceramic cup on a stone kitchen counter, soft dawn window light, shallow depth of field, highly detailed, 8k.*
+> **The Final Prompt:** > *Sea turtle with textured shell, cinematic realism, extreme close-up of its eye and face moving through murky blue-green water, tiny plastic particles drifting in the current, soft underwater light rays, shallow depth of field, environmental documentary style, highly detailed, 8k.*
 
 ### Step 3 — Generate Multiple Variants
 Paste your prompt into your AI image generator. Do not lock onto the first acceptable image. Generate 4 to 8 variations per shot. 
 
-![Mock Day 2 image generation grid showing four visual variants from the same espresso prompt.](assets/images/day2-generation-grid.png)
+![Mock Day 2 image generation grid showing four visual variants from the same sea turtle prompt.](assets/images/day2-generation-grid.png)
 
 *Caption: A four-variant image batch that helps you compare composition, lighting, and detail before picking a winning frame.*
 
@@ -95,3 +102,103 @@ Before moving on, confirm that your 5 selected frames:
 - [ ] Avoid defects (like tangled fingers or warped metal) that motion would exaggerate tomorrow.
 
 **Tomorrow:** Day 3 takes these perfect still frames and hands them over to the physics engines to breathe life into them with cinematic camera movement.
+
+</div>
+
+<div class="language-panel rtl-content" data-language-panel="ar" dir="rtl" lang="ar" markdown="1" hidden>
+
+# اليوم الثاني: إتقان الإطار
+
+هذا اليوم كله عن الاتساق. أنت لا تطارد صورًا جميلة بشكل عشوائي، بل تبني خمس لقطات ثابتة تبدو وكأنها تنتمي إلى الفيلم نفسه، والعالم نفسه، والفكرة نفسها.
+
+!!! success "مهمة اليوم"
+    أنشئ Keyframe قويًا ومتقنًا لكل واحدة من اللقطات الخمس التي خططت لها. بنهاية اليوم يجب أن تمتلك Animatic ثابتًا يشبه فيلمًا عالي الجودة وجاهزًا للانتقال إلى محركات الحركة غدًا.
+
+## ما الذي تحتاجه قبل أن تبدأ
+* **Blueprint المعتمد:** الـ Storyboard المكوّن من خمس لقطات الذي ثبّتَّه أمس.
+* **مولد الصور الأساسي:** مثل Leonardo.ai للتدرب أو Midjourney للإنتاج النهائي.
+* **بنية مجلدات:** أنشئ مجلدًا باسم `Project_Assets` وداخله مجلدات فرعية مثل `Shot_1` و`Shot_2` وهكذا.
+
+---
+
+## 🏃‍♂️ المسار السريع
+
+إذا كنت جاهزًا للتوليد، فاتبع هذه الخطوات لبناء Prompts سينمائية وتثبيت الإطارات.
+
+### الخطوة 1 — ابنِ Master Visual Identity Block
+إذا ارتجلت Prompt جديدًا من الصفر لكل لقطة، سيعامل AI كل إطار على أنه مشهد جديد. وهكذا يبدأ Character Drift وينهار الاتساق البصري.
+
+قبل كتابة Prompts الخاصة بكل لقطة، اكتب Block واحدًا يعبر عن الموضوع والأسلوب بدقة.
+
+* **مثال على Master Block:** *Sea turtle, textured shell, graceful underwater movement, cinematic realism, floating plastic debris, moody blue-green water, environmental documentary style, highly detailed natural light.*
+
+### الخطوة 2 — صيغة الـ Prompt السينمائي
+لتحصل على إطار سينمائي، ابنِ Prompt بهذا الترتيب المحدد، ثم ادمجه مع Master Block.
+
+!!! tip "صيغة الـ Prompt"
+    `[Master Visual Identity Block]`, `[Shot-Specific Action]`, `[Environment Details]`, `[Camera Framing]`, `[Lighting Intent]`.
+
+لنأخذ **Shot 1** من مثال السلحفاة البحرية ونطبقه على الصيغة:
+
+> **The Final Prompt:** > *Sea turtle with textured shell, cinematic realism, extreme close-up of its eye and face moving through murky blue-green water, tiny plastic particles drifting in the current, soft underwater light rays, shallow depth of field, environmental documentary style, highly detailed, 8k.*
+
+### الخطوة 3 — ولّد عدة Variants
+ألصق Prompt في مولد الصور الخاص بك. لا تتعلق بأول نتيجة مقبولة. ولّد من 4 إلى 8 Variants لكل لقطة.
+
+![شبكة توليد صور لليوم الثاني تعرض أربع نسخ بصرية من Prompt السلحفاة البحرية نفسه.](assets/images/day2-generation-grid.png)
+
+*Caption: دفعة من أربع نسخ تساعدك على مقارنة التكوين والإضاءة والتفاصيل قبل اختيار الإطار الفائز.*
+
+### الخطوة 4 — قارن اللقطات معًا لا كل واحدة وحدها
+قد تكون الصورة قوية بمفردها لكنها تفشل داخل التسلسل الكامل. ضع اللقطات الخمس جنبًا إلى جنب واسأل نفسك:
+* هل تبدو من العالم نفسه؟
+* هل بقي الموضوع قابلاً للتعرف بوضوح؟
+* هل يعمل التصاعد البصري من Shot 1 إلى Shot 5؟
+
+### الخطوة 5 — احفظ النسخ النهائية وسجل Continuity Locks
+احفظ الصور الخمس الفائزة داخل المجلدات المرتبة. وسجل Prompt النهائي الذي استخدمته لكل لقطة.
+
+---
+
+## 🧠 التعمق
+
+افتح الأقسام التالية لتتقن تقنيات الاتساق البصري وتتعلم كيف تتعامل مع هلوسات AI.
+
+??? info "لماذا تأتي الصور الثابتة قبل الحركة"
+    إذا كان Keyframe الأول ضعيفًا، فعادةً ستضاعف محركات الحركة هذا الضعف. الصورة الثابتة القوية تفرض "عقدًا بصريًا" يجبر مولد الفيديو على احترام الإضاءة والتكوين وتصميم الموضوع بدل أن يخترع عالمه الخاص.
+
+??? info "الاختصار السحري للاتساق: CREF وSREF"
+    أسماء الأدوات تختلف، لكن الفكرة الأساسية واحدة. إذا كانت أداتك تدعم الصور المرجعية، فاستخدمها لتثبيت العالم البصري.
+    
+    * **Character Reference (CREF):** يطلب من AI الحفاظ على وجه الموضوع أو هويته أو تصميمه كما هو تمامًا.
+    * **Style Reference (SREF):** يطلب من AI مطابقة الإضاءة وColor Grading والملمس حتى لو تغيّر المشهد.
+    
+    **Workflow عملي:** ولّد أولاً صورة مرجعية ممتازة، وغالبًا تكون Hero Shot. بعد ذلك استخدمها كـ SREF أو CREF للقطات الأربع الأخرى كي يبقى الضوء والموضوع متسقين.
+
+    ![واجهة رفع صورة مرجعية في اليوم الثاني توضّح مكان إضافة Anchor Image وStyle Reference.](assets/images/day2-reference-ui.png)
+
+    *Caption: واجهة إعداد المرجع البصري التي توضّح مكان تثبيت الاتساق قبل توليد بقية الإطارات.*
+
+??? warning "حل مشكلة: الشخصية أو المنتج يتغيران باستمرار"
+    قلّل الجزء المتغير من Prompt وقوِّ Master Block الثابت. وإذا استمر الانجراف، فعليك استخدام صورة مرجعية CREF بدل الاعتماد على النص وحده.
+
+??? warning "حل مشكلة: كل الصور تبدو بلاستيكية ومصطنعة"
+    خفف كلمات الزينة مثل hyper-detailed وinsane graphics وtrending on artstation. ركّز على الموضوع والكادر والإضاءة. المبالغة في الزخرفة تنتج لمعانًا اصطناعيًا بدل الواقعية السينمائية.
+
+??? warning "حل مشكلة: لا أستطيع اختيار الإطار النهائي"
+    اختر الصورة التي تخدم التسلسل كاملًا، لا الصورة الأكثر بهرجة وحدها. إذا كانت اللقطة مخصصة لإظهار تفصيل صغير، فالأولوية للوضوح لا للإضاءة المجنونة.
+
+---
+
+## ✅ نقطة التحقق لليوم الثاني
+
+قبل أن تنتقل إلى الخطوة التالية، تأكد أن الإطارات الخمسة المختارة:
+
+- [ ] تطابق دورها المحدد في Storyboard اليوم الأول.
+- [ ] تحافظ على هوية الموضوع والعالم البصري نفسيهما.
+- [ ] تمتلك نقطة تركيز واضحة.
+- [ ] لا تحتوي على عيوب ستجعل الحركة غدًا أسوأ.
+
+**غدًا:** يأخذ Day 3 هذه الصور الثابتة القوية ويعطيها لمحركات الحركة لتبدأ في إحيائها بحركة كاميرا سينمائية.
+
+</div>

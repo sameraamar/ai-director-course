@@ -2,6 +2,13 @@
 description: Learn how to turn your static AI frames into believable cinematic motion.
 ---
 
+<div class="language-switcher" role="group" aria-label="Language selector">
+  <button type="button" class="language-switcher__button is-active" data-language-target="en" aria-pressed="true">English</button>
+  <button type="button" class="language-switcher__button" data-language-target="ar" aria-pressed="false">العربية</button>
+</div>
+
+<div class="language-panel" data-language-panel="en" markdown="1">
+
 # Day 3: Breathing Life
 
 Now you turn still images into moving shots without letting the AI wreck the quality you worked for yesterday. The goal is controlled motion, not flashy chaos.
@@ -39,7 +46,7 @@ When uploading your Day 2 image into your video generator, use this structure to
 
 > **The Motion Prompt Formula:** > `[Primary Camera Motion]`, `[Secondary Subject Motion]`, keep `[Subject]` stable, preserve `[Identity Details]`, natural cinematic movement, no distortion, no warping.
 
-**Example for our Shot 4 (The Espresso Cup):** > *Slow dolly in toward the ceramic cup, keep the cup centered and stable, soft steam rising naturally, preserve moody dawn lighting, cinematic movement, no distortion, no background morphing.*
+**Example for our Shot 4 (The Sea Turtle):** > *Slow tracking move following the sea turtle as it pushes toward clearer water, keep the shell shape stable, plastic debris drifting gently in the background, preserve moody underwater lighting, cinematic movement, no distortion, no body warping.*
 
 ![Mock Day 3 video generation interface showing an uploaded still frame and a motion prompt ready to render.](assets/images/day3-video-ui.png)
 
@@ -64,7 +71,7 @@ Expand these sections to understand the physics of AI video generation and how t
     The best motion prompts respect what should logically move in the real world. 
     * Steam can drift and curl.
     * A camera can push in slowly.
-    * A heavy metal product should *not* wobble like rubber.
+    * A sea turtle should glide with weight and intention, not jerk around like a toy.
     If your text prompt violates the material logic of the scene, the AI will try to bend reality to accommodate you, and the output will look fake.
 
 ??? info "The Camera Movement Library"
@@ -95,3 +102,103 @@ Before moving on, confirm that your generated clips:
 - [ ] Have at least 2 to 3 seconds of usable, un-warped footage.
 
 **Tomorrow:** Day 4 is all about the spoken word—adding voiceovers and dialogue (only if your project actually needs it).
+
+</div>
+
+<div class="language-panel rtl-content" data-language-panel="ar" dir="rtl" lang="ar" markdown="1" hidden>
+
+# اليوم الثالث: بث الحياة
+
+الآن ستأخذ الصور الثابتة وتحولها إلى لقطات متحركة من دون أن تسمح للذكاء الاصطناعي بتخريب الجودة التي عملت عليها أمس. الهدف هو حركة مضبوطة، لا فوضى بصرية لامعة.
+
+!!! success "مهمة اليوم"
+    أنشئ لقطات فيديو قصيرة ومقنعة انطلاقًا من Keyframes اليوم الثاني، باستخدام تعليمات حركة مقصودة بدل التحريك العشوائي. بنهاية اليوم يجب أن تمتلك تسلسلاً متحركًا أوليًا للفيديو بالكامل.
+
+## ما الذي تحتاجه قبل أن تبدأ
+* **Keyframes المعتمدة:** الصور الخمس الثابتة التي أنشأتها في Day 2.
+* **مولد الفيديو الأساسي:** مثل Kling AI أو Minimax للتجربة المجانية، أو Runway Gen-3 أو Luma للإنتاج الاحترافي.
+* **مساحة تخزين:** مجلد لحفظ محاولات `.mp4` المتعددة لكل لقطة.
+
+---
+
+## 🏃‍♂️ المسار السريع
+
+إذا كنت جاهزًا للتحريك، فاتبع هذه الخطوات لتحويل الصور الثابتة إلى لقطات فيديو جيدة.
+
+### الخطوة 1 — حدّد دور الحركة
+قبل رفع الصورة، قرر ما الذي يجب أن تحققه الحركة. لا تجعلها تتحرك فقط لمجرد الحركة. اختر دورًا واحدًا لكل لقطة:
+* **Reveal:** تقديم الموضوع.
+* **Emphasis:** توجيه الانتباه إلى تفصيل محدد.
+* **Hold:** إبقاء الكاميرا ثابتة مع الحفاظ على الجو العام.
+
+### الخطوة 2 — افصل بين حركة الكاميرا وحركة الموضوع
+تعامل معهما كنظامين مختلفين تمامًا داخل Prompt.
+* **Camera Motion:** مثل pan وtilt وdolly وpush-in وorbit.
+* **Subject Motion:** مثل حركة اليد أو تصاعد البخار أو سكب السائل أو تحرك القماش.
+
+!!! tip "القاعدة الذهبية لحركة AI"
+    ابدأ **بحركة كاميرا واحدة أساسية** مع **أقل قدر ممكن من حركة الموضوع**. إذا طلبت الكثير دفعة واحدة، سيبدأ AI بالهلوسة وتشويه الصورة.
+
+### الخطوة 3 — قالب Motion Prompt
+عند رفع صورة Day 2 في مولد الفيديو، استخدم هذا البناء لتشرح لـ AI كيف يجب أن يحركها:
+
+> **The Motion Prompt Formula:** > `[Primary Camera Motion]`, `[Secondary Subject Motion]`, keep `[Subject]` stable, preserve `[Identity Details]`, natural cinematic movement, no distortion, no warping.
+
+**مثال على Shot 4 (السلحفاة البحرية):** > *Slow tracking move following the sea turtle as it pushes toward clearer water, keep the shell shape stable, plastic debris drifting gently in the background, preserve moody underwater lighting, cinematic movement, no distortion, no body warping.*
+
+![واجهة توليد فيديو لليوم الثالث تعرض صورة ثابتة مرفوعة وMotion Prompt جاهزًا للتنفيذ.](assets/images/day3-video-ui.png)
+
+*Caption: إعداد حركة لليوم الثالث حيث تُرفع الصورة أولًا ثم يُكتب Prompt الحركة قبل توليد عدة نسخ قصيرة.*
+
+### الخطوة 4 — ولّد وحافظ على قصر اللقطات
+ولّد الفيديو. وإذا كانت الأداة تسمح بتحديد المدة، فاختر **5 ثوانٍ** أو أقل مدة ممكنة. اللقطات الأقصر أسهل بكثير على AI في الحفاظ على استقرارها.
+
+### الخطوة 5 — احتفظ فقط باللقطات الجاهزة للمونتاج
+ولّد 3 إلى 4 Variants للحركة نفسها. واحتفظ فقط بالنسخ التي:
+* تحافظ على جودة صورة Day 2.
+* تخدم فعل Storyboard.
+* لا تحتوي على تشوهات واضحة في الوجوه أو الخلفيات.
+
+---
+
+## 🧠 التعمق
+
+افتح الأقسام التالية لتفهم فيزياء توليد الفيديو بالذكاء الاصطناعي وكيف تنقذ لقطة بدأت تنهار.
+
+??? info "فكّر بالفيزياء لا بالشكل فقط"
+    أفضل Prompts للحركة تحترم ما يمكن أن يتحرك منطقيًا في العالم الحقيقي.
+    * البخار يمكن أن يتصاعد ويلتف.
+    * الكاميرا يمكن أن تتقدم ببطء.
+    * السلحفاة البحرية يجب أن تنساب بوزن وإحساس طبيعي، لا أن تقفز مثل لعبة.
+    إذا خالف Prompt المنطق المادي للمشهد، سيحاول AI ثني الواقع لإرضاء الطلب، وستبدو النتيجة مزيفة.
+
+??? info "مكتبة حركات الكاميرا"
+    استخدم هذه المصطلحات للتحكم في "الكاميرا الافتراضية":
+    * **Push-in / Dolly-in:** يزيد التركيز والأهمية.
+    * **Pull-back:** يضيف سياقًا أو هدوءًا.
+    * **Pan:** يكشف العرض ويوجه العين يمينًا ويسارًا.
+    * **Locked shot with secondary motion:** الخيار الأكثر أمانًا عندما يكون الإطار جميلًا أصلًا.
+    * *تحذير:* تجنب حركة **Orbit** إلا عند الضرورة، لأنها غالبًا تفسد هندسة الموضوع.
+
+??? warning "حل مشكلة: المنتج يتشوه أو يذوب"
+    قلّل حركة الموضوع داخل Prompt واستخدم حركة كاميرا أبسط وأبطأ. وإذا استمرت المشكلة، فقد تحتاج إلى اختيار إطار أنظف من Day 2 بإضاءة أبسط وانعكاسات أقل تعقيدًا.
+
+??? warning "حل مشكلة: اللقطة تبدأ جيدة ثم تنهار في النهاية"
+    هذا من أكثر عيوب فيديو AI شيوعًا. الذكاء الاصطناعي "ينسى" الفيزياء بعد الثانية الرابعة أو الخامسة. احفظ اللقطة رغم ذلك، لأننا سنقص النهاية المكسورة في Day 6. إذا امتلكت ثانيتين أو ثلاث ثوانٍ جيدات، فاللقطة ناجحة.
+
+??? warning "حل مشكلة: كل اللقطات ساكنة ومملة"
+    أضف عنصرًا صغيرًا من الحركة الثانوية بدل فرض حركة كاميرا ضخمة. كلمات مثل soft steam أو light flicker أو dust motes أو leaves blowing تمنح الحياة للقطات الثابتة.
+
+---
+
+## ✅ نقطة التحقق لليوم الثالث
+
+قبل أن تنتقل، تأكد أن اللقطات المتحركة التي أنشأتها:
+
+- [ ] تحافظ على هوية الموضوع من صور Day 2.
+- [ ] تخدم دورها في Storyboard من دون فوضى زائدة.
+- [ ] تحتوي على ثانيتين إلى ثلاث ثوانٍ صالحات للاستخدام من دون تشوه مزعج.
+
+**غدًا:** يتمحور Day 4 حول الكلمة المنطوقة، أي إضافة Voiceover وDialogue فقط إذا كان المشروع يحتاج ذلك فعلًا.
+
+</div>

@@ -1,0 +1,104 @@
+- generic [active] [ref=e1]:
+  - link "Skip to content" [ref=e2] [cursor=pointer]:
+    - /url: http://127.0.0.1:8000/#purpose
+  - banner [ref=e3]:
+    - navigation "Header" [ref=e4]:
+      - link "AI Director Course" [ref=e5] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/
+        - img [ref=e6]
+      - generic [ref=e9]:
+        - generic [ref=e11]: AI Director Course
+        - generic:
+          - generic: Welcome
+      - dialog [ref=e12]:
+        - search [ref=e13]:
+          - generic [ref=e14]:
+            - textbox "Search" [ref=e15]
+            - generic:
+              - img
+            - navigation "Search":
+              - button "Clear":
+                - img
+          - generic [ref=e17]: Initializing search
+  - generic [ref=e18]:
+    - navigation "Tabs" [ref=e19]:
+      - list [ref=e21]:
+        - listitem [ref=e22]:
+          - link "Welcome" [ref=e23] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/
+        - listitem [ref=e24]:
+          - link "Tool Vault" [ref=e25] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/tool-vault/
+        - listitem [ref=e26]:
+          - link "The 7-Day Sprint" [ref=e27] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/day-1-storyboard/
+    - main [ref=e28]:
+      - generic [ref=e29]:
+        - navigation "Navigation" [ref=e33]:
+          - list [ref=e34]:
+            - listitem [ref=e35]:
+              - link "Welcome":
+                - /url: http://127.0.0.1:8000/
+                - generic: Welcome
+        - generic [ref=e37]:
+          - generic:
+            - navigation "Table of contents"
+        - article [ref=e39]:
+          - heading "Purpose" [level=1] [ref=e40]
+          - paragraph [ref=e41]: This page is the public welcome page for the AI Director Course site. It exists to orient learners to the 7-day sprint, expected outcomes, and how to use the curriculum. AI agents should keep this page aligned with the actual course structure and learner promise.
+          - heading "Maintenance Instructions" [level=1] [ref=e42]
+          - paragraph [ref=e43]: Update this page when the course positioning, learner outcome, pacing model, or site navigation changes. Humans and AI agents may both update it, but changes should remain consistent with the internal design docs and the individual day pages. Keep this page concise, motivating, and easy for first-time learners to scan.
+          - heading "Welcome to AI Director Course" [level=1] [ref=e44]
+          - paragraph [ref=e45]: Build a polished 30-to-60-second cinematic AI video in seven focused days.
+          - heading "What You Will Make" [level=2] [ref=e46]
+          - paragraph [ref=e47]: "By the end of this sprint, you should have: - A storyboarded concept - A visually consistent set of generated frames - Motion-enhanced clips - Optional dialogue or voiceover - Music and sound design - A final edited video ready for sharing, pitching, or portfolio use"
+          - heading "How the Sprint Works" [level=2] [ref=e48]
+          - paragraph [ref=e49]:
+            - text: "Every day uses a two-speed format: -"
+            - strong [ref=e50]: "Fast Track:"
+            - text: the shortest path to making progress today -
+            - strong [ref=e51]: "Deep Dive:"
+            - text: theory, troubleshooting, and craft notes for stronger results
+          - heading "Sprint Map" [level=2] [ref=e52]
+          - list [ref=e53]:
+            - listitem [ref=e54]:
+              - strong [ref=e55]: "Day 1:"
+              - text: Break the idea into a precise 5-shot plan
+            - listitem [ref=e56]:
+              - strong [ref=e57]: "Day 2:"
+              - text: Turn the plan into strong keyframes
+            - listitem [ref=e58]:
+              - strong [ref=e59]: "Day 3:"
+              - text: Add believable motion
+            - listitem [ref=e60]:
+              - strong [ref=e61]: "Day 4:"
+              - text: Generate voice and lip sync when needed
+            - listitem [ref=e62]:
+              - strong [ref=e63]: "Day 5:"
+              - text: Build mood with music and sound effects
+            - listitem [ref=e64]:
+              - strong [ref=e65]: "Day 6:"
+              - text: Edit everything into one cohesive piece
+            - listitem [ref=e66]:
+              - strong [ref=e67]: "Day 7:"
+              - text: Review, polish, upscale, and export
+          - heading "Before You Start" [level=2] [ref=e68]
+          - list [ref=e69]:
+            - listitem [ref=e70]:
+              - text: Read the
+              - link "Tool Vault" [ref=e71] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/tool-vault/
+              - text: for current tool categories.
+            - listitem [ref=e72]: Create a project folder for your assets.
+            - listitem [ref=e73]: Decide whether your final piece is an ad, product teaser, or portfolio short.
+          - heading "Suggested Outcome Standard" [level=2] [ref=e74]
+          - paragraph [ref=e75]: "Aim for one final video that is: - Short enough to finish this week - Strong enough to publish - Clear enough that someone else understands the story without explanation"
+          - generic [ref=e76]:
+            - paragraph [ref=e77]: This site is evolving
+            - paragraph [ref=e78]: The curriculum is being expanded from a working skeleton into a full guided experience. Expect the lesson structure to deepen over time while keeping the same overall sprint arc.
+    - contentinfo [ref=e79]:
+      - generic [ref=e82]:
+        - text: Made with
+        - link "Material for MkDocs" [ref=e83] [cursor=pointer]:
+          - /url: https://squidfunk.github.io/mkdocs-material/
+  - button "Ask the course assistant" [ref=e85] [cursor=pointer]

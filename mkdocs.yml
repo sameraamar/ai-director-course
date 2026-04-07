@@ -22,9 +22,11 @@ extra:
     greeting: Ask about the current lesson, workflow, or sprint steps.
 
 extra_css:
+  - assets/stylesheets/bilingual.css
   - assets/stylesheets/chat-widget.css
 
 extra_javascript:
+  - assets/javascripts/bilingual.js
   - assets/javascripts/chat-widget.js
 
 plugins:
