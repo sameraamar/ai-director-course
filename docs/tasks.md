@@ -182,6 +182,20 @@ Keep it aligned with [docs/design/design.md](design/design.md) and [docs/START_H
     - The Tool Vault is now the explicit public abstraction layer for change-prone vendor guidance.
 - Dependencies: 2.1.1
 
+### D.6 Add course placeholder audit
+- Status: [x]
+- Started:
+- Completed:
+- Included in version:
+- Acceptance criteria:
+    - A lightweight test reports unresolved screenshot or content placeholders under `/course`.
+- Validation:
+    - Added `tests/test_placeholder_audit.py` to scan course Markdown for placeholder markers such as `YOUR TASK:` and `📷`.
+- Notes:
+    - This test is intended as a content-completion checklist and will fail until all learner-facing placeholders are replaced.
+    - A first pass of mock screenshots is now embedded across Day 1 through Day 7 with alt text and captions, using generated assets under `/course/assets/images`.
+- Dependencies: 3.4
+
 ## Phase 4 — Backend assistant design and implementation
 
 ### 4.1 Design ingestion and retrieval architecture

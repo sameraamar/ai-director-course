@@ -41,7 +41,9 @@ Shift your clips left or right so the cuts happen at intentional moments. You do
 * Sync cuts to the spoken cadence of the voiceover.
 * Sync impact visuals (like a cup slamming down) to a heavy beat in the music.
 
-> 📷 **YOUR TASK:** [Take a screenshot of a cleanly organized CapCut or Premiere timeline, showing the video layer on top, voiceover underneath, and music/SFX on the bottom tracks. Save it as `assets/images/day6-timeline.png`. Embed it here.]
+![Mock Day 6 editing timeline showing video, voice, music, and sound-effects tracks arranged in a clean stack.](assets/images/day6-timeline.png)
+
+*Caption: A clean assembly timeline with the video edit on top, narration in the middle, and music plus sound effects balanced underneath.*
 
 ### Step 4 — The Audio Balance Pass
 Make sure the viewer can actually hear the story. 
@@ -89,6 +91,7 @@ Expand these sections to understand the psychology of the edit and how to fix a 
 ## ✅ Day 6 Checkpoint
 
 Before closing your editing software today, confirm that your rough cut:
+
 - [ ] Reads clearly without explanation.
 - [ ] Hides or removes the worst AI generation artifacts.
 - [ ] Keeps music and voice in balance.

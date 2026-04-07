@@ -42,7 +42,9 @@ Do not redesign the whole video today. Prioritize only changes that clearly impr
 ### Step 4 — The Upscale Pass (Wait Until the End!)
 **Crucial Rule:** Upscale, sharpen, or export at a higher resolution *only* when the content itself is completely locked and approved. Use your editing software or a dedicated tool to take the video from 720p/1080p to a crisp 4K.
 
-> 📷 **YOUR TASK:** [Take a screenshot of the export or upscale settings panel in CapCut or your chosen editor, showing 4K resolution and high bitrate selected. Save it as `assets/images/day7-export-settings.png`. Embed it here.]
+![Mock Day 7 export settings panel showing 4K resolution, H.264 codec, and a high bitrate selected for final delivery.](assets/images/day7-export-settings.png)
+
+*Caption: A final export panel configured for a crisp 4K master so the finished piece is ready for publishing and archiving.*
 
 ### Step 5 — Export Deliberately
 Create your final deliverables:
@@ -76,6 +78,7 @@ Expand these sections to master the art of the self-critique and learn when to s
 ## ✅ The Final Checkpoint
 
 Before declaring the sprint complete, confirm that:
+
 - [ ] The message or mood is clear.
 - [ ] The sound supports the visuals.
 - [ ] The final file is exported and ready to publish.

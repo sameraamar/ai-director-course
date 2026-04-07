@@ -41,7 +41,9 @@ If one sentence can do the job, do not write three. Write your script one line a
 ### Step 3 — Generate & Select
 Take your script to your voice generator (like ElevenLabs). Test variations in pace, warmth, and authority. Generate several readings. Choose the take that sounds the most natural and leaves enough pauses for music to breathe later.
 
-> 📷 **YOUR TASK:** [Take a screenshot of the ElevenLabs UI showing the script typed in, with the voice selection dropdown visible. Save it as `assets/images/day4-voice-generation.png`. Embed it here.]
+![Mock Day 4 voice generation interface showing a three-line script, voice selector, and audio generation controls.](assets/images/day4-voice-generation.png)
+
+*Caption: A voice-generation setup for Day 4 with the approved three-line script loaded and a warm narrator voice selected for testing.*
 
 ### Step 4 — The Lip Sync Rule
 If your character is speaking directly to the camera, you will need a lip-sync tool (like Kling AI, HeyGen, or SyncLabs). 
@@ -82,6 +84,7 @@ Expand these sections to understand the nuances of audio pacing and how to fix r
 ## ✅ Day 4 Checkpoint
 
 Before moving on, confirm that your spoken layer:
+
 - [ ] Adds value rather than clutter.
 - [ ] Matches the emotional tone of your visuals.
 - [ ] Is short enough to remain memorable.

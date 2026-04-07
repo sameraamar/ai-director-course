@@ -17,7 +17,9 @@ description: Learn how to convert a vague idea into a concrete 5-shot sequence.
 * **A rough goal:** Decide if this is a product ad, a brand teaser, or a portfolio piece.
 * **A workspace:** One place to save your notes, prompts, and asset decisions (like Notion, a Word doc, or a dedicated notebook).
 
-> 📷 **YOUR TASK:** [Take a screenshot of a clean Notion board or Google Doc set up for this project, titled "AI Sprint Workspace", and save it as `assets/images/day1-workspace.png`. Embed it here.]
+![Mock planning workspace for Day 1 showing an AI Sprint board with project brief and shot cards.](assets/images/day1-workspace.png)
+
+*Caption: A clean Day 1 planning workspace that keeps the concept, shot list, and project notes in one place before prompting the AI assistant.*
 
 ---
 
@@ -46,6 +48,7 @@ We are going to use an AI assistant (like Gemini or ChatGPT) to do the heavy lif
 Copy the prompt below, fill in your specific details inside the brackets, and paste it into your AI assistant.
 
 !!! tip "Copy & Paste this Prompt"
+    
     ```text
     Act as a professional cinematic storyboard artist and commercial director. I am creating a 30-to-60-second AI-generated video. 
 
@@ -64,7 +67,9 @@ Copy the prompt below, fill in your specific details inside the brackets, and pa
     - Continuity Notes (What MUST stay exactly the same on Day 2)
     ```
 
-> 📷 **YOUR TASK:** [Take a screenshot of Gemini or ChatGPT generating the 5-shot list based on the prompt, and save it as `assets/images/day1-llm-generation.png`. Embed it here.]
+![Mock AI chat output for Day 1 showing a generated 5-shot cinematic storyboard sequence.](assets/images/day1-llm-generation.png)
+
+*Caption: Example AI output that turns a one-sentence concept into a structured 5-shot sequence with escalating visual roles.*
 
 ### Step 4 — Save the Blueprint
 Review the AI's output. Does it make sense? Does the final shot hit hard? Once you are happy with it, copy the sequence into your workspace. 
@@ -128,6 +133,7 @@ Here is what a successful blueprint looks like when generated. We will use this 
 ## ✅ Day 1 Checkpoint
 
 Before closing your laptop today, confirm that your storyboard:
+
 - [ ] Uses one clear subject identity.
 - [ ] Keeps one coherent aesthetic.
 - [ ] Has a final shot that is stronger than the first shot.

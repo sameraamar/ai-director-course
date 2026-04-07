@@ -44,7 +44,9 @@ When uploading your Day 2 image into your video generator, use this structure to
 
 **Example for our Shot 4 (The Espresso Cup):** > *Slow dolly in toward the ceramic cup, keep the cup centered and stable, soft steam rising naturally, preserve moody dawn lighting, cinematic movement, no distortion, no background morphing.*
 
-> 📷 **YOUR TASK:** [Take a screenshot of the video generation UI in Kling AI or Runway, showing a Day 2 image uploaded with the motion prompt typed in below it. Save it as `assets/images/day3-video-ui.png`. Embed it here.]
+![Mock Day 3 video generation interface showing an uploaded still frame and a motion prompt ready to render.](assets/images/day3-video-ui.png)
+
+*Caption: A Day 3 motion setup where the still image is uploaded first and the camera-movement prompt is entered before rendering short clip variants.*
 
 ### Step 4 — Generate & Keep Clips Short
 Generate the clip. If your tool allows you to set the duration, choose **5 seconds** (or the shortest option). Shorter clips are much easier for the AI to keep stable. 
@@ -90,6 +92,7 @@ Expand these sections to understand the physics of AI video generation and how t
 ## ✅ Day 3 Checkpoint
 
 Before moving on, confirm that your generated clips:
+
 - [ ] Preserve the identity of the subject from your Day 2 images.
 - [ ] Fit their storyboard role without moving too chaotically.
 - [ ] Have at least 2 to 3 seconds of usable, un-warped footage.

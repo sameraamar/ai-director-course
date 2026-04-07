@@ -37,7 +37,9 @@ Head to your AI music generator (like Suno). Use your chosen emotional lane, the
 
 **Example Music Prompt:** > *Cinematic ambient track, calm luxury, slow building strings, moody electronic pulse, no vocals, 80 BPM.*
 
-> 📷 **YOUR TASK:** [Take a screenshot of the Suno.com UI showing a music prompt entered with the generated tracks below it. Save it as `assets/images/day5-music-generation.png`. Embed it here.]
+![Mock Day 5 music generation results showing a cinematic prompt and several candidate tracks.](assets/images/day5-music-generation.png)
+
+*Caption: A Day 5 music pass where one prompt generates multiple score options so you can pick the track that best supports the edit.*
 
 ### Step 3 — The Foley Spotting Sheet
 "Foley" refers to the everyday sound effects added to films (like footsteps or pouring liquid). Watch your video clips and write down a quick list of exactly where sound will matter most.
@@ -88,6 +90,7 @@ Expand these sections to understand why less is more when it comes to audio, and
 ## ✅ Day 5 Checkpoint
 
 Before moving on, confirm that your audio plan:
+
 - [ ] Supports the intended pace and emotion of the sequence.
 - [ ] Emphasizes only the most important visual moments.
 - [ ] Is cleanly organized into a folder for fast editing tomorrow.

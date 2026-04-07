@@ -43,7 +43,9 @@ Let's look at how we take **Shot 1** from yesterday's espresso machine example a
 ### Step 3 — Generate Multiple Variants
 Paste your prompt into your AI image generator. Do not lock onto the first acceptable image. Generate 4 to 8 variations per shot. 
 
-> 📷 **YOUR TASK:** [Take a screenshot of a 4-image generation grid in Midjourney or Leonardo showing variations of the same prompt, and save it as `assets/images/day2-generation-grid.png`. Embed it here.]
+![Mock Day 2 image generation grid showing four visual variants from the same espresso prompt.](assets/images/day2-generation-grid.png)
+
+*Caption: A four-variant image batch that helps you compare composition, lighting, and detail before picking a winning frame.*
 
 ### Step 4 — Compare Shots Together, Not in Isolation
 An image can be strong on its own and still fail the sequence. Put your 5 selected images side-by-side on your screen and ask:
@@ -71,7 +73,9 @@ Expand these sections to master the advanced techniques of visual consistency an
     
     **Practical Workflow:** Generate one excellent anchor image first (usually your Hero Shot). Then, use that image as an SREF or CREF for the remaining 4 shots to force the AI to keep the lighting and subject identical.
 
-    > 📷 **YOUR TASK:** [Take a screenshot of the "Image Guidance" or "Character Reference" upload UI in Leonardo or Midjourney, highlighting where to upload the anchor image. Save it as `assets/images/day2-reference-ui.png`. Embed it here.]
+    ![Mock reference-image upload panel for Day 2 showing where to add an anchor image and style reference.](assets/images/day2-reference-ui.png)
+
+    *Caption: A reference-image setup view that highlights where to lock consistency before generating more frames.*
 
 ??? warning "Troubleshooting: The character/product keeps changing"
     Shorten the variable part of your prompt and strengthen the fixed Master Block. If the AI still drifts, you *must* use a reference image (CREF) instead of relying on text alone. 
@@ -87,6 +91,7 @@ Expand these sections to master the advanced techniques of visual consistency an
 ## ✅ Day 2 Checkpoint
 
 Before moving on, confirm that your 5 selected frames:
+
 - [ ] Match their assigned role from the Day 1 storyboard.
 - [ ] Preserve the exact same subject identity and style world.
 - [ ] Have a clear focal point.
