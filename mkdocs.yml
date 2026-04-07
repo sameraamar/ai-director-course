@@ -1,0 +1,51 @@
+site_name: AI Director Course
+site_description: A 7-day cinematic AI sprint for creators, marketers, and founders.
+site_author: Course Director
+docs_dir: course
+
+theme:
+  name: material
+  custom_dir: overrides
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.instant
+    - content.code.copy
+    - toc.follow
+
+extra:
+  chat_widget:
+    api_url: http://127.0.0.1:8001/api/chat
+    launcher_label: Ask the course assistant
+    panel_title: Course Assistant
+    greeting: Ask about the current lesson, workflow, or sprint steps.
+
+extra_css:
+  - assets/stylesheets/chat-widget.css
+
+extra_javascript:
+  - assets/javascripts/chat-widget.js
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+
+nav:
+  - Welcome: index.md
+  - Tool Vault: tool-vault.md
+  - The 7-Day Sprint:
+      - Day 1 - The Director's Blueprint: day-1-storyboard.md
+      - Day 2 - Mastering the Frame: day-2-images.md
+      - Day 3 - Breathing Life: day-3-video.md
+      - Day 4 - The Spoken Word: day-4-audio.md
+      - Day 5 - The Atmosphere: day-5-music.md
+      - Day 6 - The Assembly Line: day-6-editing.md
+      - Day 7 - The Premiere: day-7-final.md

@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environment
+.venv/
+venv/
+
+# Environment variables
+.env
+
+# MkDocs build output
+site/
+
+# Vector store data
+chroma_db/
+
+# OS
+.DS_Store

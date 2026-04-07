@@ -1,0 +1,34 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Serve MkDocs",
+      "type": "shell",
+      "command": ".venv\\Scripts\\python.exe",
+      "args": ["-m", "mkdocs", "serve"],
+      "group": "build",
+      "isBackground": true,
+      "problemMatcher": []
+    },
+    {
+      "label": "Run Backend API",
+      "type": "shell",
+      "command": ".venv\\Scripts\\python.exe",
+      "args": [
+        "-m",
+        "uvicorn",
+        "ai_director_backend.app:app",
+        "--host",
+        "127.0.0.1",
+        "--port",
+        "8001",
+        "--reload",
+        "--app-dir",
+        "backend"
+      ],
+      "group": "build",
+      "isBackground": true,
+      "problemMatcher": []
+    }
+  ]
+}

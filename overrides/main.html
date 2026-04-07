@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block extrahead %}
+  {{ super() }}
+  <script>
+    window.__AI_DIRECTOR_CHAT_CONFIG__ = {
+      apiUrl: {{ config.extra.chat_widget.api_url | tojson }},
+      launcherLabel: {{ config.extra.chat_widget.launcher_label | tojson }},
+      panelTitle: {{ config.extra.chat_widget.panel_title | tojson }},
+      greeting: {{ config.extra.chat_widget.greeting | tojson }}
+    };
+  </script>
+{% endblock %}
